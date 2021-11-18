@@ -1,0 +1,145 @@
+<!-- CITATION NOTE -->
+<!-- Please note that where I learned something from an external source and applied it, I have cited such source as a comment before the relevant text block (as requested in the assignment sheet). -->
+<!-- I have only included such citation the first time such element appears, and where it repeats more than once I confirm that the citation applies to any subsequent use also. -->
+
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>[saber//games] - Home</title>
+</head>
+
+<!--Generally, basics of HTML were acquired through David Coyle's Lectures 1 and 2-->    
+    
+<!-- Standard intro, incorporating nav bar -->
+<body style="background-color: #AB9911">
+    
+    <!-- Use of HTML5 elements like footer, aside, header, etc.-->
+    <!-- Source: David Coyle, Lecture 6-->
+    <header class="main-header" style="background-color: #DEC716">
+        <div class="logo-container">
+            
+            <!--CSS inline styles-->
+            <!--SOURCE: David Coyle, Lecture 4-->
+            <h3 class="logo" style="background-color: RGBA(222,199,22,0.80)">[saber//games]</h3>
+        </div>
+        <div class="bonus-text-container">
+            <h3 class="bonus-text">ホームページ</h3>
+        </div>
+        
+        <!--navbar as a list-->
+        <!--SOURCE: David Coyle, Lecture 4-->
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="opinion.html">Opinion</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Specifying color scheme for page -->
+    <!-- Inline styles -->
+    <!-- SOURCE: David Coyle, Lecture 3 -->
+    <section class="page-body" style="background-color:#DEC716"> 
+        <div class="splash-header">
+            <h3>Welcome.</h3>
+        </div>
+        
+        <!-- Mobile-only header -->
+        <!-- Media queries -->
+        <!-- SOURCE: https://www.w3schools.com/css/css_rwd_mediaqueries.asp -->
+        <img src="images/splash/journey.png" class="phone-main" alt="Journey" style="width:98%">
+        
+        <!-- Main splash image with hovering text effect -->
+        <div class="splash">
+            <div class="splash-column">
+                <h4 class="splash-bonus-text">Chrono Trigger (1995)</h4>
+                
+                <!--Transform and translate-->
+                <!--SOURCE: https://www.youtube.com/watch?v=ceNMP-aQkQ4 -->
+                
+                <!-- transition and transform, hovering over child / parent, and generally, the popping up text effect was inspired by this YouTube tutorial: -->
+                <!-- SOURCE: https://www.youtube.com/watch?v=ceNMP-aQkQ4 -->
+                <img src="images/splash/chrono.jpg" alt="Chrono Trigger" style="transform:translateX(-375px)">
+            </div>
+            <div class="splash-column">
+                <h4 class="splash-bonus-text">Journey (2012)</h4>
+                <img src="images/splash/journey.png" alt="Journey" style="transform:translateX(-300px)">
+            </div>
+            <div class="splash-column">
+                <h4 class="splash-bonus-text">Portal (2007)</h4>
+                <img src="images/splash/portal.jpg" alt="Portal" style="transform:translateX(-440px)">
+            </div>
+            <div class="splash-column">
+                <h4 class="splash-bonus-text">Dark Souls (2011)</h4>
+                <img src="images/splash/souls.jpg" alt="Dark Souls" style="transform:translateX(-360px)">
+            </div>
+            <div class="splash-column">
+                <h4 class="splash-bonus-text">Bioshock (2007)</h4>
+                <img src="images/splash/bioshock.jpg" alt="Bioshock" style="transform:translateX(-360px)">
+            </div>
+            <div class="splash-column"> 
+                <h4 class="splash-bonus-text">Super Metroid (1994)</h4>
+                <img src="images/splash/metroid.jpg" alt="Super Metroid" style="transform:translateX(-100px)">
+            </div>
+            <div class="splash-column">
+                <h4 class="splash-bonus-text">The Witcher 3 (2015)</h4>
+                <img src="images/splash/w3.jpg" alt="Witcher 3" style="transform:translateX(-400px)">
+            </div>
+            <div class="splash-column">
+                <h4 class="splash-bonus-text">Baldur's Gate II (2000)</h4>
+                <img src="images/splash/bg2.jpg" alt="Baldur's Gate II" style="transform:translateX(-350px)">
+            </div>
+            <div class="splash-column">
+                <h4 class="splash-bonus-text">Deus Ex (2000)</h4>
+                <img src="images/splash/deusex.jpg" alt="Deus Ex" style="transform:translateX(-440px)"> 
+            </div>
+            <div class="splash-column">
+                <h4 class="splash-bonus-text">Silent Hill 2 (2002)</h4>
+                <img src="images/splash/sh2.jpg" alt="Silent Hill 2" style="transform:translateX(-300px)">
+            </div>
+        </div>
+        
+        <!-- Disclaimer for mobile users only -->
+        <p class="mobile-disclaimer">[Note: For best user experience please use the desktop version of this website]</p>
+        
+        
+        <!-- General text content -->
+        <p class="page-header">Your main source for video games.</p>
+        
+        <h3 class="index-underheading">[saber//games] is your best source for video game reviews and articles. You can also check out our gallery of the greatest games of all time! Enjoy your stay!</h3>
+        
+        <!-- Referencing media used on web page -->
+        <aside>
+            <p>IMAGE SOURCES</p>
+            <ul>
+                <li>Baldur's Gate II: Nintendo Life</li>
+                <li>Bioshock: Alpha Coders</li>
+                <li>Chrono Trigger: VG247</li>
+                <li>Deus Ex: PCGamer</li>
+                <li>Journey: Imgur</li>
+                <li>Super Metroid: Gamespot</li>
+                <li>Portal: RockPaperShotgun</li>
+                <li>Silent Hill 2: thelazy.net</li>
+                <li>Dark Souls: Imgur</li>
+                <li>Witcher 3: tech4gamers</li>
+                <li>Wind Waker: Nintendo Life</li>
+            </ul>
+        </aside>
+    </section>
+
+    <!-- Incorporating standard footer -->
+    <footer style="background-color:#AB9911">
+        <ul>
+            <li>[a website by Vladimir Rakhmanin]</li>
+            <li>[October 2021]</li>
+        </ul>
+        <span>Thanks for visiting!</span>
+    </footer>
+</body>
+</html>
